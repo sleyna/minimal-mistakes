@@ -9,10 +9,10 @@ Below is a list of my publications:
 <table style="width:100%; border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="width: 120px; text-align: left;">Date</th>
+      <th style="white-space: nowrap; text-align: left;">Date</th>
       <th style="text-align: left;">Title</th>
       <th style="text-align: left;">Authors</th>
-      <th style="width: 80px; text-align: left;">Link</th>
+      <th style="white-space: nowrap; text-align: left;">Link</th>
     </tr>
   </thead>
   <tbody>
