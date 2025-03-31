@@ -7,10 +7,9 @@ permalink: /talks/
 Below is a list of my talks and presentations.
 
 | Date                     | Title                                                                                          | Place/Event                                             |
-|--------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| 2025-01-27               | Transformers as Transducers                                                                    | CUNY (Kyle Gorman's group)                              |
+|--------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|                             |
 | 2024-11-15               | Transformers as Circuits                                                                       | Boston College (Howard Straubing's group)               |
-| 2024-11-06               | What Formal Languages Can Transformers Express? A Survey                                       | Yale (Robert Frank's group)                             |
+| 2024-11-06               | What Formal Languages Can Transformers Express? A Survey                                       | Yale (Lecture)                             |
 | 2024-08-21               | Transformers as Recognizers and Transducers                                                    | Google DeepMind, Tokyo (Heiga Zen's group)              |
 | 2024-08-10               | Representational Capacity of Neural Language Models                                            | ACL 2024, Bangkok                                       |
 | 2024-07-29 – 2024-08-02  | Expressivity of Transformers: Logic, Circuits, and Formal Languages                            | ESSLLI 2024, Leuven                                     |

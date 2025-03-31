@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 ---
 
-Below is a list of my publications:
+Below is a list of my publications.
 
 <table style="width: 100%; table-layout: auto; border-collapse: collapse;">
   <thead>
