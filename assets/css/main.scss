@@ -19,3 +19,21 @@ search: false
 html {
   font-size: 12px !important;
 }
+
+/* Footer icons: center and remove labels clearly */
+.page__footer-follow .social-icons {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  
+  .page__footer-follow .social-icons .label {
+    display: none !important;
+  }
+  
+  /* If "Powered by" remains, style it small and light gray clearly */
+  .page__footer-copyright {
+    font-size: 10px !important; /* tiny clearly */
+    color: #aaa !important;     /* light gray clearly */
+    text-align: center !important; /* centered clearly */
+  }
+  
