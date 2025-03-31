@@ -5,40 +5,51 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
-@import "minimal-mistakes"; 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
 /* === Custom CSS Adjustments === */
 
-/* Base font size */
+/* Base font size (affects rem-based text) */
 html {
   font-size: 16px !important;
 }
 
-/* Adjust page width */
-.page, .page__content, .archive, .page__inner-wrap {
-  max-width: 120rem !important;
+/* Make layout wider only on large screens (responsive!) */
+@media (min-width: 1024px) {
+  .layout--single,
+  .layout--home,
+  .page__container,
+  .page,
+  .page__inner-wrap,
+  .page__content,
+  .archive {
+    max-width: 1200px !important;
+    width: 100% !important;
+    padding: 0 3rem;
+    margin: 0 auto;
+  }
 }
 
-/* Clearly hide 'Follow:' label */
+/* Hide the "Follow:" label above footer icons */
 .page__footer-follow-label {
   display: none !important;
 }
 
-/* Hide text labels next to social icons */
+/* Hide icon text labels in footer */
 .page__footer-follow .social-icons .label {
   display: none !important;
 }
 
-/* Center social icons */
+/* Center footer icons */
 .page__footer-follow .social-icons {
   justify-content: center !important;
   text-align: center !important;
 }
 
-/* Small, gray, centered copyright */
+/* Make copyright tiny and soft */
 .page__footer-copyright {
-  font-size: 16px !important;
-  color: #bbb !important;
+  font-size: 10px !important;
+  color: #aaa !important;
   text-align: center !important;
 }

@@ -7,8 +7,8 @@ permalink: /
 <div style="display:flex;align-items:center;justify-content:space-between;">
   <div style="flex:2;">
     <p><strong>Ph.D. Student</strong>, <em>she/her</em><br>
-    📧 <a href="mailto:lenas@cs.umu.se">lenas[æt]cs.umu.se</a></p>
-    <p>I'm a <strong>Ph.D. student</strong> affiliated with the <a href="https://www.umu.se/en/research/groups/foundations-of-language-processing/">Foundations of Language Processing research group</a> at <a href="https://www.umu.se/en/">Umeå University</a>, focusing on neural network interpretability through formal language theory.</p>
+    <a href="mailto:lenas@cs.umu.se">lenas[æt]cs.umu.se</a></p>
+    <p>I'm a <strong>Ph.D. student</strong> affiliated with the <a href="https://www.umu.se/en/research/groups/foundations-of-language-processing/">Foundations of Language Processing research group</a> at Umeå University, focusing on neural network interpretability through formal language theory.</p>
     <p>I hosted and organized the <a href="https://flann.super.site/">FLaNN seminars</a>, an online seminar series on Formal Languages and Neural Networks.</p>
   </div>
 
