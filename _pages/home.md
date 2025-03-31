@@ -9,6 +9,7 @@ permalink: /
     <p><strong>Ph.D. Student</strong>, <em>she/her</em><br>
     📧 <a href="mailto:lenas@cs.umu.se">lenas[æt]cs.umu.se</a></p>
     <p>I'm a <strong>Ph.D. student</strong> affiliated with the <a href="https://www.umu.se/en/research/groups/foundations-of-language-processing/">Foundations of Language Processing research group</a> at <a href="https://www.umu.se/en/">Umeå University</a>, focusing on neural network interpretability through formal language theory.</p>
+    <p>I hosted and organized the <a href="https://flann.super.site/">FLaNN seminars</a>, an online seminar series on Formal Languages and Neural Networks.</p>
   </div>
 
   <div style="flex:1;text-align:right;">
@@ -21,7 +22,7 @@ permalink: /
 <div style="display:flex; gap: 2rem;">
 
 <div style="flex:1;">
-  <h3>Current & Recent Positions</h3>
+  <h3>Recent Positions</h3>
   <ul>
     <li><strong>Assistant in Research</strong>, Yale University (Autumn 2024)<br>
     Advisors: <a href="https://ling.yale.edu/people/robert-frank">Bob Frank</a>, <a href="https://cpsc.yale.edu/people/dana-angluin">Dana Angluin</a></li>
@@ -51,12 +52,6 @@ permalink: /
 </div>
 
 ---
-
-<h3>Activities</h3>
-<p>I organize the <a href="https://flann.super.site/">FLaNN seminars</a>, an online seminar series on Formal Languages and Neural Networks.</p>
-
----
-
 <h3>Research Interests</h3>
 <ul>
   <li>Formal Language Theory</li>
