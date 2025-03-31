@@ -10,35 +10,35 @@ search: false
 
 /* === Custom CSS Adjustments === */
 
-/* Force smaller base font size explicitly */
+/* Base font size */
 html {
-  font-size: 12px !important; /* Adjust here clearly to test (e.g., try 10px to check clearly) */
+  font-size: 12px !important;
 }
 
-/* Explicitly increase width for main content */
+/* Adjust page width */
 .page, .page__content, .archive, .page__inner-wrap {
-  max-width: 90rem !important; /* adjust clearly */
+  max-width: 90rem !important;
 }
 
-/* Remove "Follow:" from footer */
-.page__footer-follow .page__footer-follow-label {
+/* Clearly hide 'Follow:' label */
+.page__footer-follow-label {
   display: none !important;
 }
 
-/* Show icons, hide labels clearly in footer */
+/* Hide text labels next to social icons */
 .page__footer-follow .social-icons .label {
   display: none !important;
 }
 
-/* Center social icons in footer clearly */
+/* Center social icons */
 .page__footer-follow .social-icons {
   justify-content: center !important;
   text-align: center !important;
 }
 
-/* Tiny and gray "Powered by" message */
+/* Small, gray, centered copyright */
 .page__footer-copyright {
-  font-size: 10px !important; /* clearly tiny */
-  color: #bbb !important;     /* clearly light gray */
-  text-align: center !important; /* centered clearly */
+  font-size: 10px !important;
+  color: #bbb !important;
+  text-align: center !important;
 }
