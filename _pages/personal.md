@@ -4,15 +4,10 @@ title: "Personal"
 permalink: /personal/
 ---
 
-<div style="display:flex; align-items:center;">
-  <div style="flex:2;">
-    <p>Hi, I’m Lena.</p>
-    <p>Feel free to contact me at <code>lenas[æt]cs.umu.se</code>.</p>
-  </div>
-  <div style="flex:1; text-align:right;">
-    <img src="/assets/images/personal/lena-personal.png" style="width:250px; border-radius:8px;">
-  </div>
-</div>
+<p style="font-size: 1rem; color: #666; margin-top: -0.5rem;">
+  <strong>Ph.D. Student</strong>, <em>she/her</em><br>
+  <code>lenas[æt]cs.umu.se</code>
+</p>
 
 ---
 
