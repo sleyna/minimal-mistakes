@@ -1,12 +1,11 @@
 ---
 layout: single
-title: "Hi, I'm Lena 👋"
+title: "Lena Strobl"
 permalink: /
 ---
 
 <div style="display:flex;align-items:center;justify-content:space-between;">
   <div style="flex:2;">
-    <h2>Lena Strobl</h2>
     <p><strong>Ph.D. Student</strong>, <em>she/her</em><br>
     📧 <a href="mailto:lenas@cs.umu.se">lenas[æt]cs.umu.se</a></p>
     <p>I'm a <strong>Ph.D. student</strong> affiliated with the <a href="https://www.umu.se/en/research/groups/foundations-of-language-processing/">Foundations of Language Processing research group</a> at <a href="https://www.umu.se/en/">Umeå University</a>, focusing on neural network interpretability through formal language theory.</p>
