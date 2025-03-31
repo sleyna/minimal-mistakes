@@ -4,8 +4,10 @@ title: "Lena Strobl"
 permalink: /
 ---
 
-<p><strong>Ph.D. Student</strong>, <em>she/her</em><br>
-<a href="mailto:lenas@cs.umu.se">lenas[æt]cs.umu.se</a></p>
+<p style="font-size: 1rem; color: #666; margin-top: -0.5rem;">
+  <strong>Ph.D. Student</strong>, <em>she/her</em><br>
+  <code>lenas[æt]cs.umu.se</code>
+</p>
 
 <div style="display:flex;align-items:center;justify-content:space-between;">
   <div style="flex:2;">
