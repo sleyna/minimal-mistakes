@@ -171,8 +171,5 @@ footer:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=2nH0ejUAAAAJ&hl=en"
-    - label: "Umeå University"
-      icon: "fas fa-fw fa-university"
-      url: "https://www.umu.se/en/staff/lena-strobl/"
-
+      
 powered_by: false
