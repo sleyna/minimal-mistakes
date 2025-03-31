@@ -5,35 +5,40 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes"; 
 
-/* Custom CSS Adjustments */
+/* === Custom CSS Adjustments === */
 
-/* Adjust maximum content width */
-.page__content, .page {
-  max-width: 90rem !important; /* adjust as desired */
-}
-
-/* Adjust base font size to 12px (all others scale automatically) */
+/* Force smaller base font size explicitly */
 html {
-  font-size: 12px !important;
+  font-size: 12px !important; /* Adjust here clearly to test (e.g., try 10px to check clearly) */
 }
 
-/* Footer icons: center and remove labels clearly */
+/* Explicitly increase width for main content */
+.page, .page__content, .archive, .page__inner-wrap {
+  max-width: 90rem !important; /* adjust clearly */
+}
+
+/* Remove "Follow:" from footer */
+.page__footer-follow .page__footer-follow-label {
+  display: none !important;
+}
+
+/* Show icons, hide labels clearly in footer */
+.page__footer-follow .social-icons .label {
+  display: none !important;
+}
+
+/* Center social icons in footer clearly */
 .page__footer-follow .social-icons {
-    justify-content: center !important;
-    text-align: center !important;
-  }
-  
-  .page__footer-follow .social-icons .label {
-    display: none !important;
-  }
-  
-  /* If "Powered by" remains, style it small and light gray clearly */
-  .page__footer-copyright {
-    font-size: 10px !important; /* tiny clearly */
-    color: #aaa !important;     /* light gray clearly */
-    text-align: center !important; /* centered clearly */
-  }
-  
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+/* Tiny and gray "Powered by" message */
+.page__footer-copyright {
+  font-size: 10px !important; /* clearly tiny */
+  color: #bbb !important;     /* clearly light gray */
+  text-align: center !important; /* centered clearly */
+}

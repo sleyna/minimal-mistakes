@@ -152,21 +152,27 @@ atom_feed:
   hide: true
 
 footer:
-  footer:
   links:
-    - icon: "fas fa-fw fa-envelope-square"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:lenas@cs.umu.se"
-    - icon: "fab fa-fw fa-github"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/sleyna"
-    - icon: "fab fa-fw fa-linkedin"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "http://linkedin.com/in/lena-strobl/"
-    - icon: "fab fa-fw fa-instagram"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/sleynas/"
-    - icon: "fas fa-fw fa-cloud"
+    - label: "Bluesky"
+      icon: "fas fa-fw fa-cloud"
       url: "https://bsky.app/profile/sleyna.bsky.social"
-    - icon: "fas fa-fw fa-graduation-cap"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=2nH0ejUAAAAJ&hl=en"
-    - icon: "fas fa-fw fa-university"
+    - label: "Umeå University"
+      icon: "fas fa-fw fa-university"
       url: "https://www.umu.se/en/staff/lena-strobl/"
 
 powered_by: false
