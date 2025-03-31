@@ -7,3 +7,15 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Custom CSS Adjustments */
+
+/* Adjust maximum content width */
+.page__content, .page {
+  max-width: 90rem !important; /* adjust as desired */
+}
+
+/* Adjust base font size to 12px (all others scale automatically) */
+html {
+  font-size: 12px !important;
+}
